@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first-project';
+
+  postTexts = [
+    'Miodowka?',
+    'Muchomor?'
+  ];
+
+  imgVar = [
+    'assets/img/rooms/1.jpg',
+    'assets/img/rooms/2.jpg'
+  ]
+
+  buttonClicked(){
+    alert('Hallo, wie geht es dir?')
+  }
 }
